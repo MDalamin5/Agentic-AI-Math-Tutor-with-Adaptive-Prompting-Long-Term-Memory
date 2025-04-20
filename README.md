@@ -108,7 +108,7 @@ The tutor is designed to:
 ---
 
 ## 🙌 Credits
-**Al-Amin** – Final Year CSE Student at [Your University Name]  
+**Al-Amin** – Final Year CSE Student at North South University 
 This is part of my capstone project focused on building intelligent educational tools using generative AI.
 
 ---
