@@ -513,6 +513,30 @@ def main():
     st.sidebar.subheader("Adaptive Prompt")
     adaptive_prompt_display = st.sidebar.empty()
     
+    st.divider()
+        
+        
+        
+    st.sidebar.markdown("### Related Projects")
+    st.sidebar.markdown(
+        """
+        <style>
+        a {
+            color: #4CAF50; /* Green color */
+            text-decoration: none; /* Remove underline */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        </style>
+        <ul>
+            <li><a href="https://solvemate.streamlit.app/">Step-by-Step-Problem Solving</a></li>
+            <li><a href="http://192.168.0.103:8501">Learn Math Topics</a></li>
+        </ul>
+        """,
+        unsafe_allow_html=True,
+    )
+    
     st.sidebar.subheader("Hint Level")
     hint_level_display = st.sidebar.empty()
     
