@@ -123,7 +123,7 @@ robust_tutor_response_parser = RobustOutputParser(tutor_response_parser)
 @st.cache_resource
 def setup_llm():
     # Initialize the base model
-    model = ChatGroq(model_name="qwen-qwq-32b", temperature=0.1, groq_api_key=groq_api_key)
+    model = ChatGroq(model_name="qwen/qwen3-32b", temperature=0.1, groq_api_key=groq_api_key)
     
     # Enhanced base prompt template with stronger emphasis on hints-only approach
     base_prompt = """
